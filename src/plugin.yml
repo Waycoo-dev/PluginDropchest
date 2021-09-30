@@ -1,0 +1,6 @@
+name: PluginDropchest
+version: 1.0
+author: wAycoo_
+main: fr.waycoo.dropchest.Core
+commands:
+  dropchest:

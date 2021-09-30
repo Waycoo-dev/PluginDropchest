@@ -1,0 +1,44 @@
+# # # # # # # # # # # # # # # # #
+#                               #
+#  Plugin Dropchest by wAycoo_  #
+#                               #
+# # # # # # # # # # # # # # # # #
+#Discord: wAycoo_#6493
+#Type of items here : (https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+
+#Name of world
+World: world
+
+#The center of the world
+CenterWorld:
+  x: 50.0
+  z: 50.0
+  
+#The maximum coordinates that the chest spawn
+MaxCoordinates:
+  xMax: 10.0
+  yMax: 10.0
+
+#Settings when the chest is open
+OpenChest:
+  TimeDispawn: 5
+  Replace: AIR
+  ChestDispawn: true
+
+#Items settings (Default config, you can change the number of items)
+Items:
+  1:
+    type: DIAMOND_HELMET
+    quantity: 1
+    enchantment: PROTECTION_ENVIRONMENTAL
+    level: 2
+  2:
+    type: DIAMOND
+    quantity: 5
+    enchantment: PROTECTION_ENVIRONMENTAL
+    level: 2
+  3:
+    type: DIAMOND_SWORD
+    quantity: 1
+    enchantment: DAMAGE_ALL
+    level: 2
