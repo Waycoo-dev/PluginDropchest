@@ -63,7 +63,6 @@ public class ChestRunnable implements Listener {
 							Bukkit.broadcastMessage(ChatColor.GOLD + "Le coffre a été ouvert par: " + ChatColor.YELLOW + player.getName());
 							Bukkit.getScheduler().cancelAllTasks();
 						}
-						System.out.println("time: " + timer);
 						timer--;
 					}
 				}, 0, 20);
