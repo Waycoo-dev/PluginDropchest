@@ -23,7 +23,7 @@ public class Core extends JavaPlugin{
 		getServer().getPluginManager().registerEvents(new ChestRunnable(this), this);
 	}
 	
-    public Config getConfiguration() { 
-    	return config;
-    }
+    	public Config getConfiguration() { 
+    		return config;
+    	}
 }
