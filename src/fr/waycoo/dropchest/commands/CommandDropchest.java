@@ -28,7 +28,7 @@ public class CommandDropchest implements CommandExecutor{
 		if(!(sender instanceof Player)) return true;
 		
 		if(label.equalsIgnoreCase("dropchest")) {
-			if(args.length == 0 && args.length >= 2) return true;
+			if(args.length != 1) return true;
 
 			if(args.length == 1 ) {
 				if(args[0].equalsIgnoreCase("launch")) {
